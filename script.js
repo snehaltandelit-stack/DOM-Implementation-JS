@@ -1,8 +1,10 @@
 function funuser(){
     const user =document.getElementById('txtuser');
     const huser =document.getElementById('huser');
+    const btngreet =document.getElementById('btngreet');
     huser.innerText=huser.textContent + ", " + user.value;
-    user.value="";
+    // user.value="";
+    btngreet.disabled = true;
 }
 
 
